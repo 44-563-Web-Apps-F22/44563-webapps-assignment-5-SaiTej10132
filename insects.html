@@ -12,17 +12,35 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Insects Assignment</title>
+    <link rel="stylesheet" href="insect.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="advanced.html">Advanced</a>
+            </li>
+            </ul>
+          </div>
+        </nav>
+    
     <h1>Insects by Mallineni Sai Teja</h1>
     <div class="container">
 
         <div class="row">
 
            <div class="col-sm-2">M</div>
-
+           
            <div class="col-sm-2">A</div>
-
+           
            <div class="col-sm-2">L</div>
 
            <div class="col-sm-2">L</div>
@@ -56,7 +74,158 @@
             The pixel breakpoint of col-sm is 576px once the screen size decreases below 576px the letter row breaks</p>
 
     </div>
+    <div class="container">
+    <img src="/Images/mosquito1.jpg" class="img-fluiod" alt="mosquito image"
+    height="300"
+    width="300">
     
+    <img src="Images/ant1.jpg" class="img-fluid" alt="ant image"
+    height="400"
+    width="400">
+    
+    <img src="Images/lice1.jpg" class="img-fluid" alt="lice image"
+    height="300"
+    width="300">
+
+</div>
+<br>
+
+
+<div class="container">
+         
+    <img src="Images/mosquito1.jpg" class="img-thumbnail" alt="mosquito image" width="300px">
+    <img src="Images/ant1.jpg" class="img-thumbnail" alt="ant image" width="400px">
+    <img src="Images/lice1.jpg" class="img-thumbnail" alt="lice image" width="300px">
+  
+</div>
+<table class="table table-success table-striped table-bordered table-hover">
+    <caption>Here we are displaying the table of Insects Cities & Rivers</caption>
+      <thead>
+        <tr>
+            <th scope="col">Letters</th>
+            <th class="table-danger" scope="col">Insects</th>
+            <th class="table-secondary" scope="col">City</th>
+            <th class="table-primary" scope="col">River</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th class="table-default" scope="row">M</th>
+            <td class="table-danger">Mosquito</td>
+            <td class="table-secondary">Manikonda</td>
+            <td class="table-primary">Macatawa</td>
+        </tr>
+        <tr>
+            <th scope="row">A</th>
+            <td class="table-danger">Ant</td>
+            <td class="table-secondary">Amalapuram</td>
+            <td class="table-primary">Aberjona</td>
+        </tr>
+        <tr>
+            <th scope="row">L</th>
+            <td class="table-danger">Lice</td>
+            <td class="table-secondary">Lucknow</td>
+            <td class="table-primary">La Crosse</td>
+        </tr>
+        <tr >
+            <th scope="row">L</th>
+            <td class="table-danger">Lady Bug</td>
+            <td class="table-secondary">London</td>
+            <td class="table-primary">La Moine River</td>
+        </tr>
+        <tr>
+            <th scope="row">I</th>
+            <td class="table-danger">ISOPTERA</td>
+            <td class="table-secondary">Iraq</td>
+            <td class="table-primary">Iditarod River</td>
+        </tr>
+        <tr>
+            <th scope="row">N</th>
+            <td class="table-danger">NIGHTCRAWLER</td>
+            <td class="table-secondary">Nigeria</td>
+            <td class="table-primary">Nabesna River</td>
+        </tr>
+    </tbody>
+    </table>
+    <div class="button" aria-label="six button group">
+        <button type="button" class="btn btn-outline-primary ">M</button>
+        <button type="button" class="btn btn-outline-primary ">A</button>
+        <button type="button" class="btn btn-outline-primary" >L</button>
+        <button type="button" class="btn btn-outline-primary">L</button>
+        <button type="button" class="btn btn-outline-primary">I</button>
+        <button type="button" class="btn btn-outline-primary">N</button>
+    </div>
+    <div>
+    <div class="btn-toolbar" role="group" aria-label="success button group">
+        <button type="button" class="btn btn-success">M</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">L</button>
+    </div>
+    <div class="btn-toolbar" role="group" aria-label="warning button group">
+        <button type="button" class="btn btn-warning">L</button>
+        <button type="button" class="btn btn-warning">I</button>
+    </div>
+    <div class="btn-toolbar"  role="group" aria-label="danger button group">
+        <button type="button" class="btn btn-danger">N</button>
+        
+    </div>
+    <div class="dropdown">
+        <button type="button" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Select page
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="basic.html">basic page</a>
+          <a class="dropdown-item" href="advanced.html">train page</a>
+        </div>
+    </div>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Insect</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your insect">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="Images/mosquito1.jpg" alt="Mosquito" >
+          <div class="card-body">
+            <h5 class="card-title">Mosquito</h5>
+            <p class="card-text">The word "mosquito" is Spanish and Portuguese for "little fly". Mosquitoes have a slender segmented body, one pair of wings, one pair of halteres, three pairs of long hair-like legs, and elongated mouthparts.</p>
+            <a href="https://en.wikipedia.org/wiki/Mosquito" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Images/ant1.jpg" alt="ant image">
+          <div class="card-body">
+            <h5 class="card-title">Ant</h5>
+            <p class="card-text">Ants form colonies that range in size from a few dozen predatory individuals living in small natural cavities to highly organised colonies that may occupy large territories and consist of millions of individuals.</p>
+            <a href="https://en.wikipedia.org/wiki/Ant" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Images/lice1.jpg" alt="lice">
+          <div class="card-body">
+            <h5 class="card-title">lice</h5>
+            <p class="card-text">Lice are tiny, wingless insects that feed on human blood. Lice spread from person to person through close contact and by sharing belongings.</p>
+            <a href="https://www.mayoclinic.org/diseases-conditions/lice/symptoms-causes/syc-20374399" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      
+        </div>
+
+
+
+
     
 </body>
 </html>

@@ -1,0 +1,26 @@
+
+      tr,th,td{
+        border:1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      thead{
+        color:red;
+      }
+      thead:hover{
+        
+        background-color: greenyellow;
+      }
+      td{
+        color:brown;
+      }
+      .scope:nth-child(odd):nth-child(odd) {
+            background-color: #85b55c;
+        }
+        caption{
+          color:rgb(238, 98, 5);
+          text-align: center;
+        }
+     
+        
+    
